@@ -88,7 +88,7 @@ with tab1:
     st.plotly_chart(graf_bolsistas_unidades, use_container_width=True)
 
     dados_indices_unidades = dados2020.copy()
-    dados_indices_unidades.drop(['bolsista_2020', 'anos_pm_2020', 'ponto_virada_2020', 'pedra_2020', 'fase', 'turma'], axis = 1, inplace = True)
+    dados_indices_unidades.drop(['bolsista_2020', 'ponto_virada_2020', 'pedra_2020', 'fase', 'turma'], axis = 1, inplace = True)
 
     filtro_indice = st.multiselect("Selecione os índices de desenvolvimento que deseja visualizar", ['inde_2020', 'iaa_2020', 'ieg_2020', 'ips_2020', 'ida_2020', 'ipp_2020', 'ipv_2020', 'ian_2020'], ['inde_2020', 'iaa_2020', 'ieg_2020', 'ips_2020', 'ida_2020', 'ipp_2020', 'ipv_2020', 'ian_2020'])
 
@@ -233,7 +233,7 @@ with tab2:
     st.plotly_chart(graf_bolsistas_unidades, use_container_width=True)
 
     dados_indices_unidades = dados2021.copy()
-    dados_indices_unidades.drop(['bolsista_2021', 'anos_pm_2021', 'ponto_virada_2021', 'pedra_2021', 'fase', 'turma'], axis = 1, inplace = True)
+    dados_indices_unidades.drop(['bolsista_2021', 'ponto_virada_2021', 'pedra_2021', 'fase', 'turma'], axis = 1, inplace = True)
 
     filtro_indice = st.multiselect("Selecione os índices de desenvolvimento que deseja visualizar", ['inde_2021', 'iaa_2021', 'ieg_2021', 'ips_2021', 'ida_2021', 'ipp_2021', 'ipv_2021', 'ian_2021'], ['inde_2021', 'iaa_2021', 'ieg_2021', 'ips_2021', 'ida_2021', 'ipp_2021', 'ipv_2021', 'ian_2021'])
 
@@ -378,7 +378,7 @@ with tab3:
     st.plotly_chart(graf_bolsistas_unidades, use_container_width=True)
 
     dados_indices_unidades = dados2022.copy()
-    dados_indices_unidades.drop(['bolsista_2022', 'anos_pm_2022', 'ponto_virada_2022', 'pedra_2022', 'fase', 'turma'], axis = 1, inplace = True)
+    dados_indices_unidades.drop(['bolsista_2022', 'ponto_virada_2022', 'pedra_2022', 'fase', 'turma'], axis = 1, inplace = True)
 
     filtro_indice = st.multiselect("Selecione os índices de desenvolvimento que deseja visualizar", ['inde_2022', 'iaa_2022', 'ieg_2022', 'ips_2022', 'ida_2022', 'ipp_2022', 'ipv_2022', 'ian_2022'], ['inde_2022', 'iaa_2022', 'ieg_2022', 'ips_2022', 'ida_2022', 'ipp_2022', 'ipv_2022', 'ian_2022'])
 
